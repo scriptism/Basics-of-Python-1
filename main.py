@@ -60,7 +60,7 @@ print(f'Your random number is: {random.randrange(1, 10)}')
 # ---------- strings ----------
 a = """Lorem ipsum dolor sit amet,
 consectetur elit,
-sed do eiusmod tempor incididunt
+sed do eiusmod incididunt
 ut labore et dolore magna aliqua."""
 print("\n--- multi-line string ---")
 print(a)
