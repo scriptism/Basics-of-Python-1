@@ -54,3 +54,11 @@ print("free" in txt)
 
 if "free" in txt:
     print("Yes, 'free' is present.")
+
+print("\n--- sorting ---")
+
+numbers = [19, 2, 35, 1, 67, 41]
+sorted_numbers = sorted(numbers)
+
+print(numbers) # [19, 2, 35, 1, 67, 41]
+print(sorted_numbers) # [1, 2, 19, 35, 41, 67]
