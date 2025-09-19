@@ -66,3 +66,7 @@ numbers.reverse()
 print(numbers) # [41, 67, 1, 35, 2, 19]
 sorted_numbers.reverse()
 print(sorted_numbers) # [67, 41, 35, 19, 2, 1]
+
+print("\n--- index method ---")
+programming_languages = ['Rust', 'Java', 'JavaScript', 'Python', 'C++']
+print(programming_languages.index('Python')) 
