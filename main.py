@@ -15,13 +15,14 @@ print(b, type(b))
 
 # ---------- random module ----------
 print("\n--- random functions ---")
-print(random.random())                      
-print(random.randint(1, 10))                 
-print(random.randrange(1, 10))               
+print(random.random())                       # 0.0 ≤ float < 1.0
+print(random.randint(1, 10))                 # int 1-10 inclusive
+print(random.randrange(1, 10))               # int 1-9
 print(random.choice(['apple', 'banana', 'cherry']))
-print(random.uniform(1.5, 10.5))            
+print(random.uniform(1.5, 10.5))             # float 1.5-10.5
+
 nums = [1, 2, 3, 4, 5]
-random.shuffle(nums)                        
+random.shuffle(nums)                         
 print(nums)
 
 print(f'Your random number is: {random.randrange(1, 10)}')
@@ -59,12 +60,12 @@ print("\n--- sorting ---")
 numbers = [19, 2, 35, 1, 67, 41]
 sorted_numbers = sorted(numbers)
 
-print(numbers) 
-print(sorted_numbers) 
+print(numbers) # [19, 2, 35, 1, 67, 41]
+print(sorted_numbers) # [1, 2, 19, 35, 41, 67]
 numbers.reverse()
-print(numbers) 
+print(numbers) # [41, 67, 1, 35, 2, 19]
 sorted_numbers.reverse()
-print(sorted_numbers) 
+print(sorted_numbers) # [67, 41, 35, 19, 2, 1]
 
 print("\n--- index method ---")
 programming_languages = ['Rust', 'Java', 'JavaScript', 'Python', 'C++']
@@ -91,5 +92,4 @@ list2 = [1, 2, 3]
 
 list1.extend(list2)
 print(list1)
-
 
