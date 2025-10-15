@@ -1,4 +1,24 @@
+# ------import modules ------
 import random
+
+text = "I am a student of Python in the university."
+print(text)
+text = 'You are' + text[4:]
+print(text)
+
+
+x = "Hallo "
+print(x * 5)
+print(x.upper())
+print(x.lower())
+print(len(x))
+print(x.split("l"))
+
+text1 = "I"
+text2 = "love"
+text3 = "Python"
+print(text1 + " " + text2 + " " + text3)
+
 
 # ---------- numeric conversions ----------
 x = 2
@@ -12,6 +32,16 @@ print(a, type(a))
 
 b = int(a)
 print(b, type(b))
+
+
+# find()
+# matches the first occurrence of the specified value
+print(text.find("y"))
+portion = text.find("Python")
+# print(portion)
+print(text[portion:])
+print(text[portion:portion + 17])
+
 
 # ---------- random module ----------
 print("\n--- random functions ---")
